@@ -1,0 +1,28 @@
+{
+  "name": "TapMo",
+  "dataColors": ["#EB5757", "#2D3142", "#F2A65A", "#9AA0A6", "#F4A3A3", "#5C6378", "#F7C99B", "#C9CDD1"],
+  "background": "#FFFFFF",
+  "foreground": "#2D3142",
+  "tableAccent": "#EB5757",
+  "good": "#2E9E6B",
+  "neutral": "#F2A65A",
+  "bad": "#EB5757",
+  "textClasses": {
+    "title":   { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#2D3142" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 24, "color": "#2D3142" },
+    "label":   { "fontFace": "Segoe UI", "fontSize": 10, "color": "#5C6378" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "border": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "radius": 10 }],
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F5F6F8" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
